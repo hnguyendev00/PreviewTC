@@ -368,7 +368,7 @@ export default function App() {
                 <input
                   type="text"
                   value={doc.note}
-                  placeholder="Add note"
+                  placeholder="Rotation"
                   onChange={(e) => {
                     void handleNoteChange(doc.id, e.target.value);
                   }}
